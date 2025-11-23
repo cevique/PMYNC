@@ -19,3 +19,11 @@ a{
 a:active{
   color: whitesmoke;
 }
+
+.green{
+  color: #088E48;
+}
+
+.white{
+  color: white;
+}
