@@ -27,3 +27,18 @@ a:active{
 .white{
   color: white;
 }
+.outlined-text {
+    /* Sets the inner color of the text to transparent (hollow) */
+    -webkit-text-fill-color: transparent;
+    
+    /* Applies a 2-pixel black stroke/outline */
+    -webkit-text-stroke: 1px white;
+    
+    /* Standard property fallback (though not fully supported for fill/stroke effect) */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+    /* Ensure a decent font size for the effect to be visible */
+    font-size: 48px;
+    font-weight: 800;
+}
