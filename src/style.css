@@ -39,6 +39,11 @@ h1{
   flex-flow: row wrap;
   padding: 45px 60px;
 }
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .outlined-text {
     /* Sets the inner color of the text to transparent (hollow) */
     -webkit-text-fill-color: transparent;

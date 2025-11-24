@@ -98,3 +98,23 @@
   width: 20%;
   margin-top: 24px;
 }
+
+.green-section{
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url('/assets/images/greenbg1.svg');
+  padding: 100px 24px;
+}
+
+.green-section .green-section-content{
+  width: 45%;
+  font-size: 18px;
+}
+.green-section .flex{
+  gap: 30px;
+  padding: 80px 60px;
+}
