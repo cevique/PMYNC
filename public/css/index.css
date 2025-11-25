@@ -58,29 +58,30 @@
   align-items: center;
   justify-content: center;
 }
-.white-section .left, .white-section .right{
+.white-section .left,
+.white-section .right {
   width: 50%;
 }
 
-.white-section .left{
+.white-section .left {
   text-align: center;
 }
 
-.white-section .left img{
+.white-section .left img {
   width: 75%;
   height: 100%;
   object-fit: cover;
 }
 
-.white-section .right h1{
+.white-section .right h1 {
   margin-top: 12px;
   width: 80%;
 }
-.white-section .right p{
+.white-section .right p {
   font-size: 18px;
-  color: #6A7282;
+  color: #6a7282;
   width: 80%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 18px;
 }
 .hero .hero-content .cta-buttons a:first-of-type {
@@ -99,22 +100,50 @@
   margin-top: 24px;
 }
 
-.green-section{
+.green-section {
   text-align: center;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   color: white;
-  background-image: url('/assets/images/greenbg1.svg');
+  background-image: url("/assets/images/greenbg1.svg");
   padding: 100px 24px;
 }
 
-.green-section .green-section-content{
+.green-section .green-section-content {
   width: 45%;
   font-size: 18px;
 }
-.green-section .flex{
+.green-section .flex {
   gap: 30px;
   padding: 80px 60px;
+}
+
+.white-section-2 {
+  padding: 40px 44px;
+}
+
+.white-section-2 .white-section-2-content {
+  display: flex;
+}
+
+.white-section-2 .left, .white-section-2 .right {
+  width: 50%;
+}
+
+.white-section-2 .left {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-left: 50px;
+}
+.white-section-2 .left p {
+  width: 88%;
+  margin-top: 12px;
+}
+
+.white-section-2 .right{
+  position: relative;
+  right: 0;
 }

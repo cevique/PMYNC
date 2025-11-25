@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="navbar"></div>
 
     <!-- your page content here -->
+    <section id="events-section"></section>
+
+    <script type="module">
+      import { loadInProgress } from "/src/loadInProgress.js";
+      loadInProgress("#events-section");
+    </script>
 
     <div id="footer"></div>
 
     <script type="module" src="/src/main.js"></script>
-</body>
+  </body>
 </html>

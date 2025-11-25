@@ -1,0 +1,40 @@
+.in-progress-container {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-progress-card {
+  text-align: center;
+  padding: 30px 40px;
+  border-radius: 16px;
+  background: #f9fafb;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  max-width: 500px;
+  animation: fadeIn 0.6s ease;
+}
+
+.in-progress-mascot {
+  width: 120px;
+  margin-bottom: 20px;
+  opacity: 0.85;
+}
+
+.in-progress-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #1e293b; /* slate-800-ish */
+}
+
+.in-progress-message {
+  font-size: 1.1rem;
+  color: #475569; /* slate-600 */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
