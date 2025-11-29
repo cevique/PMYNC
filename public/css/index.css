@@ -345,7 +345,7 @@
   border-radius: 12px;
 }
 
-.nycAndVoices .cardTiles .youngVoicesCard .personInformation{
+.nycAndVoices .cardTiles .youngVoicesCard .personInformation {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -372,4 +372,39 @@
   font-weight: 500;
   text-align: left;
   font-weight: bold;
+}
+
+.nycAndVoices:last-of-type > p{
+  width: 66%;
+}
+
+.diversionCards{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-flow: row wrap;
+  gap: 24px;
+  margin-top: 40px;
+  width: 66%;
+}
+
+.diversionCards .diversionCard{
+  background-color: #088E48;
+  color: white;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 20px;
+  width: calc(100% / 4 - 18px);
+}
+
+.diversionFigure{
+  font-weight: 800;
+  font-size: 44px;
+}
+
+.diversionMetric{
+  font-size: 14px;
 }
