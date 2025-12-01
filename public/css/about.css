@@ -232,5 +232,23 @@ span {
 }
 
 .shared-vision .vi-card{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
   border: 1px solid #088E48;
+  width: 30%;
+  text-align: left;
+  padding: 24px 16px;
+  color: #475063;
+  font-size: 16px;
+  border: 1px solid #088E48;
+  border-radius: 12px;
+}
+
+.shared-vision .vi-card h2{
+  font-size: 16px;
+  font-weight: 600;
+  color: #006600;
 }
