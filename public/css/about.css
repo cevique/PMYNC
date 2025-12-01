@@ -1,0 +1,236 @@
+.hero {
+  height: 80vh;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero > img:first-of-type {
+  object-fit: cover;
+  filter: brightness(0.5);
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+}
+
+.hero .hero-content {
+  width: 60%;
+  padding-top: 44px;
+  padding-left: 48px;
+  color: white;
+  text-align: center;
+}
+
+.hero .hero-content h1 {
+  font-size: 64px;
+}
+
+span {
+  color: #088e48;
+}
+.hero .hero-content p:first-of-type {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.vision {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 87px;
+}
+
+.vision .left {
+  width: 60%;
+}
+
+.vision .left h2 {
+  font-size: 40px;
+}
+
+.vision .left p,
+.right .vision-date,
+.right .vision-info {
+  color: #6a7282;
+  font-size: 18px;
+}
+
+.vision .right {
+  width: 35%;
+  font-size: 20px;
+  /* gap: 56px; */
+  align-items: baseline;
+}
+
+.vision .right .vision-steps {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 18px;
+}
+.vision .right .vision-steps:not(:last-child)::after {
+  content: url("/assets/images/aboutPage/orangeSeparator.svg");
+  margin-left: 28px;
+}
+
+.vision .right .vision-steps .vision-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.white-section-2 {
+  padding: 40px 0 40px 44px;
+  background-color: #f6f6f6;
+}
+
+.white-section-2 .white-section-2-content {
+  display: flex;
+}
+
+.white-section-2 .left {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-left: 50px;
+  width: 60%;
+}
+.white-section-2 .left p {
+  width: 88%;
+  margin-top: 12px;
+}
+
+.white-section-2 .right {
+  position: relative;
+  right: 0;
+  width: 40%;
+  overflow: hidden;
+}
+.white-section-2 .right img {
+  object-fit: contain;
+}
+
+.diversionCards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-flow: row wrap;
+  gap: 24px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.diversionCards .diversionCard {
+  background-color: #088e48;
+  color: white;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 20px;
+  width: calc(100% / 4 - 18px);
+}
+
+.diversionFigure {
+  font-weight: 800;
+  font-size: 44px;
+}
+
+.diversionMetric {
+  font-size: 14px;
+}
+
+.representation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 87px;
+  text-align: center;
+}
+
+.representation > p {
+  color: #6a7282;
+  font-size: 18px;
+  width: 68%;
+}
+
+.representation .rep-places {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+  padding: 18px;
+  gap: 20px;
+}
+
+.representation .rep-places .rep-place {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.representation .rep-places h3 {
+  color: #088e48;
+  font-size: 20px;
+}
+.representation .rep-places p {
+  color: #4d4d4d;
+  font-size: 14px;
+  width: 80%;
+}
+.representation .rep-places h5 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #088e48;
+  font-size: 14px;
+}
+.representation .rep-places ul li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.achievementTitle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.shared-vision {
+  text-align: center;
+  font-size: 18px;
+  color: #6a7282;
+  padding: 45px 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.shared-vision h1 {
+  font-size: 40px;
+  color: black;
+  width: 65%;
+}
+
+.shared-vision > p {
+  width: 67%;
+}
+
+.shared-vision .vi-cards{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.shared-vision .vi-card{
+  border: 1px solid #088E48;
+}

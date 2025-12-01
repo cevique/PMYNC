@@ -120,35 +120,6 @@
   padding: 80px 60px;
 }
 
-.white-section-2 {
-  padding: 40px 44px;
-}
-
-.white-section-2 .white-section-2-content {
-  display: flex;
-}
-
-.white-section-2 .left,
-.white-section-2 .right {
-  width: 50%;
-}
-
-.white-section-2 .left {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  padding-left: 50px;
-}
-.white-section-2 .left p {
-  width: 88%;
-  margin-top: 12px;
-}
-
-.white-section-2 .right {
-  position: relative;
-  right: 0;
-}
-
 .card-list {
   width: 90%;
   display: flex;
@@ -378,6 +349,37 @@
   width: 66%;
 }
 
+.white-section-2 {
+  padding: 40px 0 40px 44px;
+  background-color: #F6F6F6;
+}
+
+.white-section-2 .white-section-2-content {
+  display: flex;
+}
+
+.white-section-2 .left {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-left: 50px;
+  width: 60%;
+}
+.white-section-2 .left p {
+  width: 88%;
+  margin-top: 12px;
+}
+
+.white-section-2 .right {
+  position: relative;
+  right: 0;
+  width: 40%;
+  overflow: hidden;
+}
+.white-section-2 .right img{
+  object-fit: contain;
+}
+
 .diversionCards {
   display: flex;
   justify-content: center;
@@ -385,7 +387,7 @@
   flex-flow: row wrap;
   gap: 24px;
   margin-top: 40px;
-  width: 66%;
+  text-align: center;
 }
 
 .diversionCards .diversionCard {
