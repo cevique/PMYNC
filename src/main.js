@@ -3,7 +3,6 @@ import "../components/navbar.css";
 import "../components/footer.css";
 import { setupRevealAnimations } from "./smoothAnimations.js";
 
-
 async function loadComponent(id, filePath) {
   try {
     const response = await fetch(filePath);
@@ -14,9 +13,9 @@ async function loadComponent(id, filePath) {
   }
 }
 
-// Load shared components
-loadComponent("navbar", "/components/navbar.html");
-loadComponent("footer", "/components/footer.html");
+// Load shared components using Vite-safe URLs
+loadComponent("navbar", new URL("../components/navbar.html", import.meta.url));
+loadComponent("footer", new URL("../components/footer.html", import.meta.url));
 
 setupRevealAnimations();
 
