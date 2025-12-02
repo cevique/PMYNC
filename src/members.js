@@ -149,7 +149,7 @@ function createMemberCard(member) {
   
   card.innerHTML = `
     <div class="card-image">
-      <img src="${member.image}" alt="${member.name}" onerror="this.src='/assets/images/default-avatar.png'">
+      <img src="${member.image}" alt="${member.name}" onerror="this.src='./src/assets/default-avatar.png'">
     </div>
     <div class="card-content">
       <h3>${member.name}</h3>

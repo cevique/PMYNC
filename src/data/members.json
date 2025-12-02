@@ -7,7 +7,7 @@
     "designation": "President",
     "sector": "Policy Development",
     "type": "Leadership",
-    "image": "/assets/images/placeholders/glassesGuy2.svg",
+    "image": "./assets/placeholders/glassesGuy2.svg",
     "year": "2024"
   },
   {
@@ -18,7 +18,7 @@
     "designation": "Vice President",
     "sector": "Education",
     "type": "Members",
-    "image": "/assets/images/placeholders/portraitWoman.svg",
+    "image": "./assets/placeholders/portraitWoman.svg",
     "year": "2024"
   },
   {
@@ -29,7 +29,7 @@
     "designation": "Regional Director",
     "sector": "Social Work",
     "type": "Alumni",
-    "image": "/assets/images/placeholders/moggingGuy.svg",
+    "image": "./assets/placeholders/moggingGuy.svg",
     "year": "2023"
   }
 ]
